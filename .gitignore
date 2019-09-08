@@ -3,6 +3,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+*.bak
+*.dat
+*.dir
+
+cache
+output
+
 # C extensions
 *.so
 

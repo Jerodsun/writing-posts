@@ -16,129 +16,24 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "Your Name"  # (translatable)
-BLOG_TITLE = "Demo Site"  # (translatable)
+BLOG_AUTHOR = "Jerod Sun"  # (translatable)
+BLOG_TITLE = "Writing and Culture"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://example.com/"
+SITE_URL = "https://jerodsun.xyz/writing/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
-BLOG_EMAIL = "joe@demo.site"
-BLOG_DESCRIPTION = "This is a demo site for Nikola."  # (translatable)
+BLOG_EMAIL = "jerod.sun@live.com"
+BLOG_DESCRIPTION = "Blog page for WRIT 015."  # (translatable)
 
-# Nikola is multilingual!
-#
-# Currently supported languages are:
-#
-# en        English
-# ar        Arabic
-# az        Azerbaijani
-# bg        Bulgarian
-# bs        Bosnian
-# ca        Catalan
-# cs        Czech [ALTERNATIVELY cz]
-# da        Danish
-# de        German
-# el        Greek [NOT gr]
-# eo        Esperanto
-# es        Spanish
-# et        Estonian
-# eu        Basque
-# fa        Persian
-# fi        Finnish
-# fr        French
-# gl        Galician
-# he        Hebrew
-# hi        Hindi
-# hr        Croatian
-# hu        Hungarian
-# id        Indonesian
-# it        Italian
-# ja        Japanese [NOT jp]
-# ko        Korean
-# lt        Lithuanian
-# ml        Malayalam
-# nb        Norwegian (Bokmål)
-# nl        Dutch
-# pa        Punjabi
-# pl        Polish
-# pt        Portuguese
-# pt_br     Portuguese (Brazil)
-# ru        Russian
-# sk        Slovak
-# sl        Slovene
-# sq        Albanian
-# sr        Serbian (Cyrillic)
-# sr_latin  Serbian (Latin)
-# sv        Swedish
-# te        Telugu
-# th        Thai
-# tr        Turkish [NOT tr_TR]
-# uk        Ukrainian
-# ur        Urdu
-# vi        Vietnamese
-# zh_cn     Chinese (Simplified)
-# zh_tw     Chinese (Traditional)
-#
-# If you want to use Nikola with a non-supported language you have to provide
-# a module containing the necessary translations
-# (cf. the modules at nikola/data/themes/base/messages/).
-# If a specific post is not translated to a language, then the version
-# in the default language will be shown instead.
-
-# What is the default language?
 DEFAULT_LANG = "en"
-
-# What other languages do you have?
-# The format is {"translationcode" : "path/to/translation" }
-# the path will be used as a prefix for the generated pages location
-TRANSLATIONS = {
-    DEFAULT_LANG: "",
-    # Example for another language:
-    # "es": "./es",
-}
-
-# What will translated input files be named like?
-
-# If you have a page something.rst, then something.pl.rst will be considered
-# its Polish translation.
-#     (in the above example: path == "something", ext == "rst", lang == "pl")
-# this pattern is also used for metadata:
-#     something.meta -> something.pl.meta
-
-TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
-
-# Links for the sidebar / navigation bar.  (translatable)
-# This is a dict.  The keys are languages, and values are tuples.
-#
-# For regular links:
-#     ('https://getnikola.com/', 'Nikola Homepage')
-#
-# For submenus:
-#     (
-#         (
-#             ('https://apple.com/', 'Apple'),
-#             ('https://orange.com/', 'Orange'),
-#         ),
-#         'Fruits'
-#     )
-#
-# WARNING: Support for submenus is theme-dependent.
-#          Only one level of submenus is supported.
-# WARNING: Some themes, including the default Bootstrap 4 theme,
-#          may present issues if the menu is too large.
-#          (in Bootstrap, the navbar can grow too large and cover contents.)
-# WARNING: If you link to directories, make sure to follow
-#          ``STRIP_INDEXES``.  If it’s set to ``True``, end your links
-#          with a ``/``, otherwise end them with ``/index.html`` — or
-#          else they won’t be highlighted when active.
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archives"),
-        ("/categories/index.html", "Tags"),
-        ("/rss.xml", "RSS feed"),
+        # ("/archive.html", "Archives"),
+        # ("/categories/index.html", "Tags"),
+        # ("/rss.xml", "RSS feed"),
     ),
 }
 
@@ -216,13 +111,11 @@ THEME_CONFIG = {
 POSTS = (
     ("posts/*.rst", "posts", "post.tmpl"),
     ("posts/*.md", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
     ("posts/*.html", "posts", "post.tmpl"),
 )
 PAGES = (
     ("pages/*.rst", "pages", "page.tmpl"),
     ("pages/*.md", "pages", "page.tmpl"),
-    ("pages/*.txt", "pages", "page.tmpl"),
     ("pages/*.html", "pages", "page.tmpl"),
 )
 
@@ -236,7 +129,7 @@ PAGES = (
 # (e.g. 'Europe/Zurich')
 # Also, if you want to use a different time zone in some of your posts,
 # you can use the ISO 8601/RFC 3339 format (ex. 2012-03-30T23:00:00+02:00)
-TIMEZONE = "UTC"
+TIMEZONE = "America/New_York"
 
 # If you want to use ISO 8601 (also valid RFC 3339) throughout Nikola
 # (especially in new_post), set this to True.
@@ -287,16 +180,7 @@ TIMEZONE = "UTC"
 COMPILERS = {
     "rest": ('.rst', '.txt'),
     "markdown": ('.md', '.mdown', '.markdown'),
-    "textile": ('.textile',),
-    "txt2tags": ('.t2t',),
-    "bbcode": ('.bb',),
-    "wiki": ('.wiki',),
-    "ipynb": ('.ipynb',),
     "html": ('.html', '.htm'),
-    # PHP files are rendered the usual way (i.e. with the full templates).
-    # The resulting files have .php extensions, making it possible to run
-    # them without reconfiguring your server to recognize them.
-    "php": ('.php',),
     # Pandoc detects the input from the source filename
     # but is disabled by default as it would conflict
     # with many of the others.
@@ -1110,7 +994,8 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 
 # By default, Nikola generates RSS files for the website and for tags, and
 # links to it.  Set this to False to disable everything RSS-related.
-# GENERATE_RSS = True
+
+GENERATE_RSS = False
 
 # By default, Nikola does not generates Atom files for indexes and links to
 # them. Generate Atom for tags by setting TAG_PAGES_ARE_INDEXES to True.
