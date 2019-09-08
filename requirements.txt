@@ -26,3 +26,4 @@ six
 Unidecode
 urllib3
 Yapsy
+ghp-import2 # for gh deploy
