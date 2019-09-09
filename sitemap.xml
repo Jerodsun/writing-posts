@@ -6,39 +6,35 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://jerodsun.xyz/writing/</loc>
+  <loc>http://jerodsun.xyz/writing/</loc>
   <lastmod>2019-09-08T15:00:00Z</lastmod>
  </url>
  <url>
-  <loc>https://jerodsun.xyz/writing/2016/</loc>
+  <loc>http://jerodsun.xyz/writing/2016/</loc>
   <lastmod>2019-09-08T03:23:00Z</lastmod>
  </url>
  <url>
-  <loc>https://jerodsun.xyz/writing/2019/</loc>
+  <loc>http://jerodsun.xyz/writing/2019/</loc>
   <lastmod>2019-09-08T15:00:00Z</lastmod>
  </url>
  <url>
-  <loc>https://jerodsun.xyz/writing/archive.html</loc>
-  <lastmod>2019-09-08T15:08:00Z</lastmod>
+  <loc>http://jerodsun.xyz/writing/archive.html</loc>
+  <lastmod>2019-09-09T00:06:00Z</lastmod>
  </url>
  <url>
-  <loc>https://jerodsun.xyz/writing/categories/</loc>
+  <loc>http://jerodsun.xyz/writing/categories/</loc>
   <lastmod>2019-09-08T03:23:00Z</lastmod>
  </url>
  <url>
-  <loc>https://jerodsun.xyz/writing/posts/markdown-version/</loc>
+  <loc>http://jerodsun.xyz/writing/posts/markdown-version/</loc>
   <lastmod>2019-09-08T15:00:00Z</lastmod>
  </url>
  <url>
-  <loc>https://jerodsun.xyz/writing/posts/nikola-creation/</loc>
+  <loc>http://jerodsun.xyz/writing/posts/this-is-a-slug/</loc>
   <lastmod>2019-09-08T15:00:00Z</lastmod>
  </url>
  <url>
-  <loc>https://jerodsun.xyz/writing/posts/this-is-a-slug/</loc>
-  <lastmod>2019-09-08T15:00:00Z</lastmod>
- </url>
- <url>
-  <loc>https://jerodsun.xyz/writing/posts/your-first-post/</loc>
+  <loc>http://jerodsun.xyz/writing/posts/your-first-post/</loc>
   <lastmod>2019-09-08T15:00:00Z</lastmod>
  </url>
 </urlset>
