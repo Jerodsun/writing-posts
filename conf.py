@@ -856,9 +856,12 @@ RSS_COPYRIGHT_FORMATS = CONTENT_FOOTER_FORMATS
 #          will not be generated for that directory.
 # PAGE_INDEX = False
 # Enable comments on pages (i.e. not posts)?
-# COMMENTS_IN_PAGES = False
+
+COMMENTS_IN_PAGES = False
+
 # Enable comments on picture gallery pages?
-# COMMENTS_IN_GALLERIES = False
+
+COMMENTS_IN_GALLERIES = False
 
 # What file should be used for directory indexes?
 # Defaults to index.html
