@@ -1,12 +1,13 @@
 <!--
-.. title: Future Post
-.. slug: this-is-a-slug
-.. date: 2019-09-29 15:29:40 UTC
+.. title: Sample Post
+.. slug: sample-post-link-url
+.. date: 2019-09-12 15:29:40 UTC
 .. tags: 
 .. category: 
 .. link: 
-.. description: 
+.. description: Sample Post Description
 .. type: text
 -->
 
-Write your post here.
+Sample First post here.
+
