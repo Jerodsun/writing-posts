@@ -1,4 +1,4 @@
-Sitemap: https://jerodsun.xyz/writing/sitemapindex.xml
+Sitemap: https://jerodsun.xyz/writing-posts/sitemapindex.xml
 
 User-Agent: *
 Host: jerodsun.xyz

@@ -6,23 +6,23 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://jerodsun.xyz/writing/</loc>
+  <loc>https://jerodsun.xyz/writing-posts/</loc>
   <lastmod>2019-09-08T15:00:00Z</lastmod>
  </url>
  <url>
-  <loc>https://jerodsun.xyz/writing/2019/</loc>
+  <loc>https://jerodsun.xyz/writing-posts/2019/</loc>
   <lastmod>2019-09-08T15:00:00Z</lastmod>
  </url>
  <url>
-  <loc>https://jerodsun.xyz/writing/archive.html</loc>
-  <lastmod>2019-10-06T20:52:00Z</lastmod>
+  <loc>https://jerodsun.xyz/writing-posts/archive.html</loc>
+  <lastmod>2019-10-06T20:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://jerodsun.xyz/writing/categories/</loc>
+  <loc>https://jerodsun.xyz/writing-posts/categories/</loc>
   <lastmod>2019-09-08T03:23:00Z</lastmod>
  </url>
  <url>
-  <loc>https://jerodsun.xyz/writing/posts/sample-post-link-url/</loc>
+  <loc>https://jerodsun.xyz/writing-posts/posts/sample-post-link-url/</loc>
   <lastmod>2019-09-14T18:37:00Z</lastmod>
  </url>
 </urlset>
